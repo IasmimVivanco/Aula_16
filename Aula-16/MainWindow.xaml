@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aula_16"
         mc:Ignorable="d"
-        Title="Sem titulo - Bloco de notas" Height="450" Width="800" Background="White" Icon="/favicon.png">
+        Title="Sem Título - Bloco de notas" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -38,7 +38,7 @@
         Source="C:\Users\iasmimv\Downloads\OIP.jpg"/>
 
         <Menu Grid.Column="0" Background="White" Grid.ColumnSpan="3" Margin="0,0,66,0">
-            <MenuItem Header="Arquivo" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal">
+            <MenuItem Header="Arquivo" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal" Margin="10,0,10,0">
                 <MenuItem Header="Novo" />
                 <MenuItem Header="Nova janela" />
                 <MenuItem Header="Abrir" />
@@ -53,7 +53,7 @@
         </Menu>
 
         <Menu Grid.Column="1" Background="White" Grid.ColumnSpan="4" Margin="0,0,66,0">
-            <MenuItem Header="Editar" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal">
+            <MenuItem Header="Editar" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal" Margin="10,0,10,0">
                 <MenuItem Header="Desfazer" />
                 <Separator />
                 <MenuItem Header="Recortar" />
@@ -73,21 +73,21 @@
             </MenuItem>
         </Menu>
         <Menu Grid.Column="2" Background="White" Grid.ColumnSpan="4" Margin="0,0,66,0">
-            <MenuItem Header="Formatar" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal">
+            <MenuItem Header="Formatar" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal" Margin="10,0,10,0">
                 <MenuItem Header="Quebra automática de linha" />
                 <MenuItem Header="Fonte..." />
                 <Separator />
             </MenuItem>
         </Menu>
         <Menu Grid.Column="3" Background="White" Grid.ColumnSpan="4" Margin="0,0,66,0">
-            <MenuItem Header="Exibir" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal">
+            <MenuItem Header="Exibir" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal" Margin="10,0,10,0">
                 <MenuItem Header="Aplicar zoom" />
                 <MenuItem Header="Barra de status" />
                 <Separator />
             </MenuItem>
         </Menu>
         <Menu Grid.Column="4" Background="White" Grid.ColumnSpan="4" Margin="0,0,66,0">
-            <MenuItem Header="Ajuda" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal">
+            <MenuItem Header="Ajuda" Background="White" Height="22" Width="59" FontFamily="Arial" FontWeight="Normal" Margin="10,0,10,0">
                 <MenuItem Header="Exibir ajuda" />
                 <MenuItem Header="Enviar comentários" />
                 <Separator />
@@ -95,10 +95,10 @@
             </MenuItem>
         </Menu>
 
-        <TextBlock x:Name="Ln1_Col1" Grid.Column="0" Margin="13,394,24,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="Ln1,Col1"/></TextBlock>
-        <TextBlock Grid.Column="5" Margin="13,394,24,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="100%"/></TextBlock>
-        <TextBlock Grid.Column="7" Margin="29,394,10,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="Windows(CLRF)"/></TextBlock>
-        <TextBlock Grid.Column="10" Margin="10,394,60,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="UTF-8"/></TextBlock>
-        <TextBox Grid.ColumnSpan="13" HorizontalAlignment="Left" Height="374" Margin="10,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="759"/>
+        <TextBlock x:Name="Ln1_Col1" Grid.Column="0" Margin="12,370,31,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.ColumnSpan="2" Height="20" Width="80"><Run Language="pt-br" Text="Ln1,Col1"/></TextBlock>
+        <TextBlock Grid.Column="5" Margin="13,370,24,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="100%"/></TextBlock>
+        <TextBlock Grid.Column="7" Margin="10,370,10,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="Windows(CLRF)"/></TextBlock>
+        <TextBlock Grid.Column="10" Margin="10,370,60,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.489,4.075" Grid.RowSpan="2" Grid.ColumnSpan="2"><Run Language="pt-br" Text="UTF-8"/></TextBlock>
+        <TextBox Grid.ColumnSpan="13" HorizontalAlignment="Left" Height="340" Margin="10,5,10,30" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="759"/>
     </Grid>
 </Window>
